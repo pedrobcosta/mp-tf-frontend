@@ -1,14 +1,36 @@
 # MpTfFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
+## Executando o projeto
+Para subir o projeto, execute os passos abaixo:
 
-## Development server
+1 - Clonando o projeto
+```sh
+$    git clone git@github.com:pedrobcosta/mp-tf-frontend.git
+``` 
+ou 
+```sh
+$    git clone https://github.com/pedrobcosta/mp-tf-frontend.git
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2 - instalando dependencias
+```sh
+$    cd mp-tf-frontend
+```
+```sh
+$    npm install
+```
 
-## Code scaffolding
+3 - Subindo o projeto
+```sh
+$    ng serve
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Basta acessar o endereço `http://localhost:4200`
+* Caso não tenha o `ng` instalado, basta executar o seguinte comando para instalar:
+```sh
+$    npm install -g @angular/cli
+```
+
 
 ## Build
 
