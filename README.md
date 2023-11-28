@@ -1,5 +1,4 @@
-# MpTfFrontend
-
+# Frontend do trabalho final da disciplina de Métodos de Programação
 ## Executando o projeto
 Para subir o projeto, execute os passos abaixo:
 
