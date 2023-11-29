@@ -10,8 +10,27 @@ ou
 ```sh
 $    git clone https://github.com/pedrobcosta/mp-tf-frontend.git
 ```
+2 - Certifique-se de ter o Node 16 instalado
 
-2 - instalando dependencias
+Execute
+```sh
+$    node -v
+```
+A versão deve ser igual ou superior a 16.13.x
+
+Caso contrário instale o node 16: https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos
+
+Você pode usar o nvm pra alternar entre várias versões do node: https://codedamn.com/news/nodejs/nvm-installation-setup-guide
+
+Basta instalar o nvm e executar
+```sh
+$    nvm install 16
+```
+```sh
+$    nvm use 16
+```
+
+3 - instalando dependencias
 ```sh
 $    cd mp-tf-frontend
 ```
@@ -19,7 +38,7 @@ $    cd mp-tf-frontend
 $    npm install
 ```
 
-3 - Subindo o projeto
+4 - Subindo o projeto
 ```sh
 $    npm start
 ```
@@ -29,7 +48,6 @@ $    npm start
 ```sh
 $    npm install -g @angular/cli@15
 ```
-
 
 ## Build
 
