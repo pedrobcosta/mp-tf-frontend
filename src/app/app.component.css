@@ -1,0 +1,49 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .header {
+    background-color: #6C63FF;
+  }
+
+
+  .account {
+   background: white;
+   left:1600px;
+   color: beige;
+  }
+  .account:hover {
+    background-color: #6C63FF;
+  
+  }
+
+  .login {
+    left: 1615px;
+  }
+
+  .login:hover{
+    background-color: #6C63FF;
+  }
+  
+  .street-food {
+    position: absolute;
+    top: 230px;
+    right: 0;
+  }
+
+  .text {
+    position: relative;
+    top: 290px;
+    font-size: 50px;
+    left: 30px;
+    color: orange;
+    font-weight: bold;
+  }
+
+  .footer {
+    position: relative;
+    color: orange;
+    top: 650px;
+    left: 810px;
+    font-weight: bold;
+  }
