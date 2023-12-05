@@ -21,23 +21,23 @@ $    npm install
 
 3 - Subindo o projeto
 ```sh
-$    ng serve
+$    npm start
 ```
 
 * Basta acessar o endereço `http://localhost:4200`
 * Caso não tenha o `ng` instalado, basta executar o seguinte comando para instalar:
 ```sh
-$    npm install -g @angular/cli
+$    npm install -g @angular/cli@15
 ```
 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
